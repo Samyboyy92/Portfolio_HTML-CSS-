@@ -1,0 +1,66 @@
+.box {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+    height: 75vh;
+}
+
+html {
+    height: 100%;
+    margin: 0px;
+}
+
+.first-box,
+.third-box,
+.fourth-box {
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 20px;
+}
+
+nav ul {
+    background-color: rgb(49, 155, 197);
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    padding: 20px;
+}
+
+nav {
+    color: white;
+}
+
+nav a {
+    color: rgb(54, 47, 28);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color:white;
+}
+
+.hero-image {
+    background-size: cover;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero.text {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
